@@ -1,0 +1,100 @@
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 135(1,2): Illegal C character in input file  0x00
+*** Error 58 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 135(1,2): Expecting a close paren
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0xFF
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0xFF
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0xFF
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x07
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Illegal C character in input file  0x00
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(3,4): Expecting a declaration
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(8,9): Illegal C character in input file  0xDF
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(10,11): Illegal C character in input file  0x92
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(10,11): Illegal C character in input file  0xEE
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(10,11): Illegal C character in input file  0xB7
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(10,11): Illegal C character in input file  0x9E
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(10,11): Illegal C character in input file  0xC0
+*** Error 1 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 136(10,11): Illegal C character in input file  0xF6
+*** Error 48 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 189(2,7): Expecting a (
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 201(17,27): Undefined identifier   LCD_DATA0
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 202(17,27): Undefined identifier   LCD_DATA1
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 203(17,27): Undefined identifier   LCD_DATA2
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 204(17,27): Undefined identifier   LCD_DATA3
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 228(17,27): Undefined identifier   LCD_DATA0
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 229(17,27): Undefined identifier   LCD_DATA1
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 230(17,27): Undefined identifier   LCD_DATA2
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 231(17,27): Undefined identifier   LCD_DATA3
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 246(15,25): Undefined identifier   LCD_DATA0
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 247(15,25): Undefined identifier   LCD_DATA1
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 248(15,25): Undefined identifier   LCD_DATA2
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 249(15,25): Undefined identifier   LCD_DATA3
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 261(15,25): Undefined identifier   LCD_DATA0
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 262(15,25): Undefined identifier   LCD_DATA1
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 263(15,25): Undefined identifier   LCD_DATA2
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 264(15,25): Undefined identifier   LCD_DATA3
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 316(17,27): Undefined identifier   LCD_DATA0
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 317(17,27): Undefined identifier   LCD_DATA1
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 318(17,27): Undefined identifier   LCD_DATA2
+*** Error 12 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 319(17,27): Undefined identifier   LCD_DATA3
+*** Error 28 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 364(20,22): Expecting an identifier
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 365(1,2): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 366(4,10): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 366(11,12): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 366(12,14): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 366(13,14): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 367(4,5): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(7,11): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(12,16): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(19,20): Expecting a declaration
+*** Error 28 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(33,34): Expecting an identifier
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(35,36): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(36,37): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(37,38): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(43,48): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 368(48,49): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 370(7,11): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 370(12,16): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 370(19,20): Expecting a declaration
+*** Error 28 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 370(36,37): Expecting an identifier
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 370(38,39): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 370(39,40): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 370(40,41): Expecting a declaration
+*** Error 28 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 371(31,32): Expecting an identifier
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 371(33,34): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 376(22,27): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 376(27,28): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(7,11): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(12,16): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(19,20): Expecting a declaration
+*** Error 28 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(32,33): Expecting an identifier
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(34,35): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(35,36): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(36,37): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(45,50): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 388(50,51): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(7,11): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(12,16): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(19,20): Expecting a declaration
+*** Error 28 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(35,36): Expecting an identifier
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(37,41): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(41,42): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(42,43): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(45,50): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 391(50,51): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 402(7,14): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 402(19,20): Expecting a declaration
+*** Error 28 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 402(35,36): Expecting an identifier
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 402(37,39): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 402(38,39): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 402(39,40): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 402(45,50): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 402(50,51): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 404(4,5): Expecting a declaration
+*** Error 43 "C:\Program Files (x86)\PICC\Drivers\lcd.c" Line 405(1,2): Expecting a declaration

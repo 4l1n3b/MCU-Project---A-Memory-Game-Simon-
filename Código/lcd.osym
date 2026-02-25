@@ -1,0 +1,29 @@
+_RETURN_
+lcd
+lcdlat
+lcdtris
+
+Project Directory:
+    C:\Users\aliba\Desktop\Proj final Lab\Projeto final\Projeto final\
+
+Project Files:
+    lcd.c                                                   [12-ago-23 16:46  CRC=2D59FF9A]
+
+Source signature=5AB3FF34
+
+Units:
+    lcd (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Output file:    Relocatable
+
+Output Files:
+    Errors:      lcd.err
+    Object:      lcd.o
+    Symbols:     lcd.osym

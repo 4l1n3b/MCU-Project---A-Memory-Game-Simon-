@@ -1,0 +1,16 @@
+[PROJECT]
+Target=simon.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=simon.c
+[Directories]
+Include=
+[simon.c]
+Type=4
+[mru-list]
+1=simon.c
+[Units]
+Count=1
+1=simon (main)

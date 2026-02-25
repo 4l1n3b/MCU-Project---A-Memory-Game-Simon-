@@ -1,0 +1,225 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+00C.0   TMR1IF
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020-021 strtok.save
+022-025 _Randseed
+026-045 seq
+046-065 player_seq
+066     nivel
+067     start
+068     acertou
+069     errou
+06A     levelplayer
+06B     estouroTempo
+06C-075 display
+076     @TRIS_C
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     MAIN.i
+07C     MAIN.press
+07D     lcd_init.i
+07D     start_game.i
+07D     exibe_nivel.unidade
+07D     init_seq.i
+07D     playSeq.i
+07D     init_seqPlayer.i
+07D     gerar_seq.i
+07D     ler_player.temp
+07D     MAIN.@SCRATCH1
+07E     exibe_nivel.dezena
+07E     ler_player.press
+07E     lcd_init.@SCRATCH1
+07E     playSeq.@SCRATCH1
+07E     MAIN.@SCRATCH2
+09C.6   C1OUT
+09C.7   C2OUT
+0A0-0AF start_game.start_music
+0A0     ler_player.i
+0A0-0A3 lcd_init.LCD_INIT_STRING
+0A0     exibe_nivel.@SCRATCH1
+0A0     init_seq.@SCRATCH1
+0A0     init_seqPlayer.@SCRATCH1
+0A0     gerar_seq.@SCRATCH1
+0A1-0AE game_over.tempo
+0A1     ler_player.@SCRATCH1
+0A1     init_seq.@SCRATCH2
+0A1     init_seqPlayer.@SCRATCH2
+0A1     gerar_seq.@SCRATCH2
+0A2-0A5 @MUL3232.P1
+0A2     rand.@SCRATCH1
+0A2     ler_player.@SCRATCH2
+0A2     gerar_seq.@SCRATCH3
+0A3     rand.@SCRATCH2
+0A3     gerar_seq.@SCRATCH4
+0A4     rand.@SCRATCH3
+0A5     rand.@SCRATCH4
+0A6-0A9 @MUL3232.P1
+0AA     @MUL3232.@SCRATCH1
+0AB     @MUL3232.@SCRATCH2
+0AC     @MUL3232.@SCRATCH3
+0AD     @MUL3232.@SCRATCH4
+0AE     @MUL3232.@SCRATCH5
+0AF-0CA game_over.errado
+0B0-0B7 start_game.tempo
+0B8     start_game.@SCRATCH1
+0B9     start_game.@SCRATCH2
+0BA     start_game.@SCRATCH3
+0CB     game_over.i
+0CC     @PSTRINGCN7_919.P1
+0CC     @PRINTF_D_919.P2
+0CC     @PSTRINGC7_919.@SCRATCH1
+0CC     game_over.@SCRATCH1
+0CD     @PRINTF_D_919.P1
+0CD     @PSTRINGC7_919.@SCRATCH2
+0CD     game_over.@SCRATCH2
+0CD     @PSTRINGCN7_919.@SCRATCH1
+0CE     @PSTRINGC7_919.@SCRATCH3
+0CE     game_over.@SCRATCH3
+0CE     @PSTRINGCN7_919.@SCRATCH2
+0CE     @PRINTF_D_919.@SCRATCH1
+0CF-0D0 tone.frequencia
+0CF     @PSTRINGC7_919.@SCRATCH4
+0CF     @PSTRINGCN7_919.@SCRATCH3
+0CF     @PRINTF_D_919.@SCRATCH2
+0D0     @PSTRINGCN7_919.@SCRATCH4
+0D0     @PRINTF_D_919.@SCRATCH3
+0D1     tone.duracao
+0D1     @PRINTF_D_919.@SCRATCH4
+0D2-0D3 tone.periodo
+0D2     @DIV88.P1
+0D2     lcd_putc.c
+0D3     @DIV88.P1
+0D3     lcd_gotoxy.x
+0D3     @delay_ms1.P1
+0D4-0D5 tone.metPeriodo
+0D4     lcd_gotoxy.y
+0D4     @DIV88.@SCRATCH1
+0D5     lcd_gotoxy.address
+0D6-0D7 tone.numCiclos
+0D6     lcd_gotoxy.@SCRATCH1
+0D7     lcd_send_byte.address
+0D8     lcd_send_byte.n
+0D8-0D9 tone.i
+0D9     lcd_read_byte.low
+0D9     lcd_send_byte.@SCRATCH1
+0DA-0DB @MUL1616.P1
+0DA     lcd_send_nibble.n
+0DA     lcd_read_byte.high
+0DA-0DD @DIV3232.P1
+0DA     tone.@SCRATCH1
+0DB     @delay_us1.P1
+0DB     lcd_read_nibble.n
+0DB     lcd_read_byte.@SCRATCH1
+0DB     tone.@SCRATCH2
+0DC-0DD @MUL1616.P1
+0DC-0DD @DIV1616.P2
+0DC     lcd_read_nibble.@SCRATCH1
+0DE-0DF @DIV1616.P1
+0DE-0E1 @DIV3232.P2
+0DE     @MUL1616.@SCRATCH1
+0E0     @DIV1616.@SCRATCH1
+0E2     @DIV3232.@SCRATCH1
+0E3     @DIV3232.@SCRATCH2
+0E4     @DIV3232.@SCRATCH3
+0E5     @DIV3232.@SCRATCH4
+0E6     @DIV3232.@SCRATCH5
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const951.call
+000005  @const963.call
+00000E  @const964.call
+000015  @const969.call
+00001B  @const970.call
+000020  @const984.call
+000028  @const995.call
+000031  @const996.call
+000039  @const997.call
+000040  @const998.call
+000045  @const999.call
+00004D  @const1000.call
+000055  @const1001.call
+00005C  @const1002.call
+000063  @const1003.call
+000068  @const1004.call
+00006F  @const1006.call
+000078  @delay_ms1
+00008C  lcd_send_nibble
+0000C6  lcd_read_nibble
+0000F9  lcd_send_byte
+000101  lcd_read_byte
+00015D  lcd_init
+0001AF  @DIV88
+0001C6  exibe_nivel
+000281  init_seq
+000290  init_seqPlayer
+00029D  @DIV1616
+0002C4  gerar_seq
+0002D4  rand
+0002EC  @MUL3232
+000373  lcd_gotoxy
+000387  lcd_putc
+0003C1  @PSTRINGC7_919
+000435  limpa_display
+000442  @delay_us1
+000453  tone
+000462  @DIV3232
+0004C0  @MUL1616
+000523  start_game
+0005A5  playSeq
+000623  @goto12032
+00062B  @PSTRINGCN7_919
+0006A5  @PRINTF_D_919
+000708  game_over
+000800  ler_player
+000913  MAIN
+000913  @cinit1
+000925  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    C:\Users\aliba\Desktop\Projeto final\
+
+Project Files:
+    simon.c                                                 [21-ago-23 19:21  CRC=EC4A91AA]
+    16F877A.h                                               [11-ago-23 09:39  CRC=4F277C97]
+    stdlib.h                                                [08-jun-11 14:39  CRC=0B6669CF]
+    stddef.h                                                [16-jul-10 09:27  CRC=897CEC6C]
+    string.h                                                [14-jul-11 10:13  CRC=23EDEC8F]
+    ctype.h                                                 [03-jan-08 13:55  CRC=2D1F019F]
+    lcd.c                                                   [18-ago-23 20:22  CRC=9C9E61DA]
+
+Source signature=5A9F165E
+
+Units:
+    simon (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      simon.err
+    INHX8:       simon.hex
+    Symbols:     simon.sym
+    List:        simon.lst
+    Debug/COFF:  simon.cof
+    Project:     simon.ccspjt
+    Call Tree:   simon.tre
+    Statistics:  simon.STA

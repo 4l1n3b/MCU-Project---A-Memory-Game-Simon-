@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+B1::PIN_C0	C:\Users\aliba\Desktop\Projeto final\simon.c	29;"	d	line:29	file:
+B2::PIN_C1	C:\Users\aliba\Desktop\Projeto final\simon.c	30;"	d	line:30	file:
+B3::PIN_C2	C:\Users\aliba\Desktop\Projeto final\simon.c	31;"	d	line:31	file:
+B4::PIN_C3	C:\Users\aliba\Desktop\Projeto final\simon.c	32;"	d	line:32	file:
+BLUE::PIN_A0	C:\Users\aliba\Desktop\Projeto final\simon.c	35;"	d	line:35	file:
+BUZZER_PIN::PIN_D7	C:\Users\aliba\Desktop\Projeto final\simon.c	41;"	d	line:41	file:
+GREEN::PIN_A3	C:\Users\aliba\Desktop\Projeto final\simon.c	38;"	d	line:38	file:
+LCD_DATA4::PIN_B4	C:\Users\aliba\Desktop\Projeto final\simon.c	22;"	d	line:22	file:
+LCD_DATA5::PIN_B5	C:\Users\aliba\Desktop\Projeto final\simon.c	23;"	d	line:23	file:
+LCD_DATA6::PIN_B6	C:\Users\aliba\Desktop\Projeto final\simon.c	24;"	d	line:24	file:
+LCD_DATA7::PIN_B7	C:\Users\aliba\Desktop\Projeto final\simon.c	25;"	d	line:25	file:
+LCD_ENABLE_PIN::PIN_B0	C:\Users\aliba\Desktop\Projeto final\simon.c	19;"	d	line:19	file:
+LCD_RS_PIN::PIN_B1	C:\Users\aliba\Desktop\Projeto final\simon.c	20;"	d	line:20	file:
+LCD_RW_PIN::PIN_B2	C:\Users\aliba\Desktop\Projeto final\simon.c	21;"	d	line:21	file:
+RED::PIN_A2	C:\Users\aliba\Desktop\Projeto final\simon.c	37;"	d	line:37	file:
+START_PIN::PIN_C5	C:\Users\aliba\Desktop\Projeto final\simon.c	44;"	d	line:44	file:
+YELLOW::PIN_A1	C:\Users\aliba\Desktop\Projeto final\simon.c	36;"	d	line:36	file:
+acertou	C:\Users\aliba\Desktop\Projeto final\simon.c	51;"	v	line:51
+dezena	C:\Users\aliba\Desktop\Projeto final\simon.c	89;"	l	line:89
+disp	C:\Users\aliba\Desktop\Projeto final\simon.c	55;"	v	line:55
+display	C:\Users\aliba\Desktop\Projeto final\simon.c	87;"	f	line:87
+errado	C:\Users\aliba\Desktop\Projeto final\simon.c	177;"	l	line:177
+errou	C:\Users\aliba\Desktop\Projeto final\simon.c	52;"	v	line:52
+estouroTempo	C:\Users\aliba\Desktop\Projeto final\simon.c	54;"	v	line:54
+game_over	C:\Users\aliba\Desktop\Projeto final\simon.c	174;"	f	line:174
+gerar_seq	C:\Users\aliba\Desktop\Projeto final\simon.c	341;"	f	line:341
+i	C:\Users\aliba\Desktop\Projeto final\simon.c	360;"	l	line:360
+init_seq	C:\Users\aliba\Desktop\Projeto final\simon.c	311;"	f	line:311
+init_seqPlayer	C:\Users\aliba\Desktop\Projeto final\simon.c	326;"	f	line:326
+ler_player	C:\Users\aliba\Desktop\Projeto final\simon.c	240;"	f	line:240
+levelplayer	C:\Users\aliba\Desktop\Projeto final\simon.c	53;"	v	line:53
+limpa_display	C:\Users\aliba\Desktop\Projeto final\simon.c	82;"	f	line:82
+main	C:\Users\aliba\Desktop\Projeto final\simon.c	348;"	f	line:348
+metPeriodo	C:\Users\aliba\Desktop\Projeto final\simon.c	67;"	l	line:67
+nivel	C:\Users\aliba\Desktop\Projeto final\simon.c	49;"	v	line:49
+numCiclos	C:\Users\aliba\Desktop\Projeto final\simon.c	69;"	l	line:69
+periodo	C:\Users\aliba\Desktop\Projeto final\simon.c	66;"	l	line:66
+playSeq	C:\Users\aliba\Desktop\Projeto final\simon.c	200;"	f	line:200
+player_seq	C:\Users\aliba\Desktop\Projeto final\simon.c	48;"	v	line:48
+press	C:\Users\aliba\Desktop\Projeto final\simon.c	243;"	l	line:243
+press	C:\Users\aliba\Desktop\Projeto final\simon.c	434;"	l	line:434
+seq	C:\Users\aliba\Desktop\Projeto final\simon.c	47;"	v	line:47
+start	C:\Users\aliba\Desktop\Projeto final\simon.c	50;"	v	line:50
+start_game	C:\Users\aliba\Desktop\Projeto final\simon.c	145;"	f	line:145
+start_music	C:\Users\aliba\Desktop\Projeto final\simon.c	146;"	l	line:146
+temp	C:\Users\aliba\Desktop\Projeto final\simon.c	242;"	l	line:242
+tempo	C:\Users\aliba\Desktop\Projeto final\simon.c	147;"	l	line:147
+tempo	C:\Users\aliba\Desktop\Projeto final\simon.c	175;"	l	line:175
+tone	C:\Users\aliba\Desktop\Projeto final\simon.c	65;"	f	line:65	signature:(int16 frequencia, unsigned int duracao)
+unidade	C:\Users\aliba\Desktop\Projeto final\simon.c	88;"	l	line:88

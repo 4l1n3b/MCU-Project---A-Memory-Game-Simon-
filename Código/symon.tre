@@ -1,0 +1,140 @@
+ÀÄsymon
+   ÀÄMAIN  1/415  Ram=4
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄlcd_init  0/74  Ram=6
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_send_nibble  0/19  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_send_nibble  0/19  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄlcd_send_byte  0/86  Ram=3
+      ³     ÃÄlcd_read_byte  (Inline)  Ram=3
+      ³     ³  ÃÄlcd_read_nibble  0/6  Ram=0
+      ³     ³  ÀÄlcd_read_nibble  0/6  Ram=0
+      ³     ÃÄlcd_send_nibble  0/19  Ram=1
+      ³     ÀÄlcd_send_nibble  0/19  Ram=1
+      ÃÄinit_seq  0/20  Ram=2
+      ÃÄgerar_seq  0/189  Ram=4
+      ³  ÀÄrand  (Inline)  Ram=4
+      ³     ÃÄ@MUL3232  (Inline)  Ram=13
+      ³     ÀÄ@DIV1616  (Inline)  Ram=5
+      ÃÄstart_game  0/168  Ram=45
+      ³  ÃÄlimpa_display  0/13  Ram=0
+      ³  ³  ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ³  ³  ÃÄlcd_putc  0/64  Ram=1
+      ³  ³  ³  ³  ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ³  ³  ³  ³  ÀÄlcd_send_byte  0/86  Ram=3
+      ³  ³  ³  ³  ³     ÀÄ*
+      ³  ³  ³  ³  ÃÄlcd_send_byte  0/86  Ram=3
+      ³  ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³  ³  ³  ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ³  ÃÄlcd_send_byte  0/86  Ram=3
+      ³  ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ³  ÀÄlcd_send_byte  0/86  Ram=3
+      ³  ³  ³  ³     ÀÄ*
+      ³  ³  ³  ÀÄlcd_putc  0/64  Ram=1
+      ³  ³  ³     ÀÄ*
+      ³  ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄplayTone  0/340  Ram=15
+      ³  ³  ÃÄ@DIVFF  0/204  Ram=14
+      ³  ³  ÃÄ@SFTOI  0/33  Ram=4
+      ³  ³  ÃÄ@ITOF  (Inline)  Ram=2
+      ³  ³  ÃÄ@MULFF  (Inline)  Ram=13
+      ³  ³  ÃÄ@DIVFF  0/204  Ram=14
+      ³  ³  ÃÄ@SFTOI  0/33  Ram=4
+      ³  ³  ÃÄ@delay_us1  0/17  Ram=1
+      ³  ³  ÃÄ@delay_us1  0/17  Ram=1
+      ³  ³  ÃÄ@delay_us1  0/17  Ram=1
+      ³  ³  ÀÄ@delay_us1  0/17  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄlimpa_display  0/13  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÃÄplaySeq  0/139  Ram=1
+      ³  ÃÄ@goto11895  0/8  Ram=0
+      ³  ÃÄplayTone  0/340  Ram=15
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄplayTone  0/340  Ram=15
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄplayTone  0/340  Ram=15
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄplayTone  0/340  Ram=15
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄlimpa_display  0/13  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÃÄplaySeq  0/139  Ram=1
+      ³  ÀÄ*
+      ÃÄlimpa_display  0/13  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÃÄler_player  0/78  Ram=3
+      ÃÄlimpa_display  0/13  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÃÄlimpa_display  0/13  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄlimpa_display  0/13  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄlimpa_display  0/13  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/22  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_920  0/116  Ram=4
+      ³  ÀÄ*
+      ÀÄgame_over  0/191  Ram=75
+         ÃÄlimpa_display  0/13  Ram=0
+         ³  ÀÄ*
+         ÃÄlcd_gotoxy  0/22  Ram=4
+         ³  ÀÄ*
+         ÃÄ@PSTRINGC7_920  0/116  Ram=4
+         ³  ÀÄ*
+         ÃÄplayTone  0/340  Ram=15
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÀÄ@delay_ms1  0/20  Ram=1
